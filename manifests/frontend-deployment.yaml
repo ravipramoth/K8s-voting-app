@@ -27,7 +27,7 @@ spec:
         imagePullPolicy: Always
         env:
           - name: REACT_APP_APIHOSTPORT
-            value: $API_ELB_PUBLIC_FQDN #add your API_Load_Balancer DNS manually here if app does not run
+            value: acdf05d9b69134a7c8b17f67350c536c-1746957834.us-east-2.elb.amazonaws.com
         ports:
         - containerPort: 8080
         livenessProbe:
